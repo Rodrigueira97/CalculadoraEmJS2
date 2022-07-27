@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 2</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculadora-Rodrigo Xavier</h1>
+
+    <div class="container">
+        <div class="display" id="display">Display</div>
+    </div>
+    <div class="container">
+        <button class="botao2" onclick="calculator.ac()">AC</button>
+        <button onclick="calculator.del()">DEL</button>
+        <button onclick="calculator.divisao()">/</button>
+    </div>
+    <div class="container">
+        <button onclick="calculator.proximoNumero(1)">1</button>
+        <button onclick="calculator.proximoNumero(2)">2</button>
+        <button onclick="calculator.proximoNumero(3)">3</button>
+        <button onclick="calculator.multiplicacao()">*</button>
+    </div>
+
+    <div class="container">
+        <button onclick="calculator.proximoNumero(4)">4</button>
+        <button onclick="calculator.proximoNumero(5)">5</button>
+        <button onclick="calculator.proximoNumero(6)">6</button>
+        <button onclick="calculator.adicao()">+</button>
+
+    </div>
+
+    <div class="container">
+        <button onclick="calculator.proximoNumero(7)">7</button>
+        <button onclick="calculator.proximoNumero(8)">8</button>
+        <button onclick="calculator.proximoNumero(9)">9</button>
+        <button onclick="calculator.subtracao()">-</button>
+    </div>
+
+    <div class="container">
+        <button onclick="calculator.proximoNumero('.')">,</button>
+        <button onclick="calculator.proximoNumero(0)">0</button>
+        <button class="botao2" onclick="calculator.igual()">=</button>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
